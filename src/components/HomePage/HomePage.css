@@ -55,12 +55,12 @@
     transform: translateX(-50%); 
   } 
 
-  /* WhatsAppButton.css */
+  /* WhatsApp */
 
 .whatsapp-button {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 50px;
+  right: 50px;
   background-color: #25D366;
   padding: 10px;
   border-radius: 50%;
@@ -254,12 +254,8 @@
     }
     
     .text-costura {
-      font-size: 70px;
+      font-size: 60px;
       margin-left: -1%;
-    }
-    
-    .p-costura {
-      font-size: 70px;
     }
     
     .costura-creativa ul {
@@ -279,9 +275,9 @@
     }
     
     .img-home {
-      width: 40%;
+      width: 50%;
       position: absolute;
-      bottom: 0;
+      top: 89px;
       left: 80%; 
       transform: translateX(-50%); 
     }
@@ -296,14 +292,12 @@
     .costura-creativa{
       margin-top: 5%;
       margin-left: 7%;
+      display: flex;
+      flex-direction: column;
     }
 
     .text-costura {
       font-size: 65px;
-    }
-  
-    .p-costura {
-      font-size: 70px;
     }
   
     .costura-creativa li {
@@ -313,21 +307,21 @@
     .parrafo {
       font-size: 60px;
     }
-  
+
     .img-home {
-      display: none;
+      width: 65%;
+      position: absolute;
+      top: 45%;
+      left: 50%; 
+      transform: translateX(-50%); 
     }
   }
 
   @media (max-width: 500px) {
     .text-costura {
-      margin-top: 35%;
+      margin-top: 15%;
       font-size: 40px;
       margin-left: -1%;
-    }
-  
-    .p-costura {
-     display: none;
     }
   
     .costura-creativa li {
@@ -338,19 +332,23 @@
     .parrafo {
       font-size: 40px;
     }
+
+    .img-home {
+      width: 100%;
+      position: absolute;
+      top: 45%;
+      left: 50%; 
+      transform: translateX(-50%); 
+    }
   }
 
   @media (max-width: 425px) {
     .text-costura {
-      margin-top: 35%;
+      margin-top: 15%;
       font-size: 40px;
       margin-left: -1%;
     }
-  
-    .p-costura {
-     display: none;
-    }
-  
+
     .costura-creativa li {
       font-size: 25px;
       margin-left: 5%;
@@ -358,6 +356,14 @@
   
     .parrafo {
       font-size: 39px;
+    }
+
+    .img-home {
+      width: 110%;
+      position: absolute;
+      top: 42%;
+      left: 50%; 
+      transform: translateX(-50%); 
     }
   }
 
@@ -366,15 +372,11 @@
       margin-left: -1%;
     }
     .text-costura {
-      margin-top: 35%;
-      font-size: 39px;
+      margin-top: 12%;
+      font-size: 35px;
       margin-left: -1%;
     }
-  
-    .p-costura {
-     display: none;
-    }
-  
+    
     .costura-creativa li {
       font-size: 20px;
       margin-left: 5%;
@@ -383,18 +385,22 @@
     .parrafo {
       font-size: 34px;
     }
+
+    .img-home {
+      width: 120%;
+      position: absolute;
+      top: 40%;
+      left: 50%; 
+      transform: translateX(-50%); 
+    }
   
   }
 
   @media (max-width: 344px) {
     .text-costura {
-      margin-top: 45%;
+      margin-top: 22%;
       font-size: 30px;
       margin-left: -2%;
-    }
-  
-    .p-costura {
-      font-size: 40px;
     }
   
     .costura-creativa li {
@@ -403,6 +409,14 @@
   
     .parrafo {
       font-size: 30px;
+    }
+
+    .img-home {
+      width: 130%;
+      position: absolute;
+      top: 40%;
+      left: 50%; 
+      transform: translateX(-50%); 
     }
   
   }

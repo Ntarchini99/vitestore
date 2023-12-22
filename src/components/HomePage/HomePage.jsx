@@ -1,4 +1,5 @@
 import '../HomePage/HomePage.css';
+import mask from '../../assets/img/vitestore-remove.png'
 import whatsapp from '../../assets/icons/whatsapp.png'
 
 
@@ -16,14 +17,17 @@ const HomePage = () => {
 
         <p className="parrafo">¡Lo pedis, lo tenés!</p>
 
+        <img src={mask} alt="" className='img-home' />
+
+
         <a
-        href="https://wa.me/3484365436"
-        className="whatsapp-button"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src={whatsapp} alt="WhatsApp Icon" />
-      </a>
+          href="https://wa.me/3484365436"
+          className="whatsapp-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={whatsapp} alt="WhatsApp Icon" />
+        </a>
 
       </section>
     </div>

@@ -43,6 +43,16 @@
     display: block;
 }
 
+.productos-section {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .productos-section.visible {
+    opacity: 1;
+  }
+  
+
 @media (max-width: 768px) {
     .productoss {
         font-size: 2rem;

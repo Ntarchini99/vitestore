@@ -93,17 +93,6 @@ const Header = () => {
                 Envios
               </a>
             </li>
-            <li>
-              <a
-                onClick={() => {
-                  scrollToSection('contact');
-                  setActiveSection('contact');
-                }}
-                className={activeSection === 'contact' ? 'active' : ''}
-              >
-                Contacto
-              </a>
-            </li>
           </ul>
         </div>
       </nav>

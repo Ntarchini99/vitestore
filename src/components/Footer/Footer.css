@@ -17,13 +17,14 @@
   }
   
   .footer-copyright {
-    background-color: #4E4E4E;
+    background: linear-gradient(90deg, #5de0e6, #004aad);
     padding: 10px;
   }
   
   .footer-copyright p {
     margin: 0;
-    color: #ffffff;
+    color: black;
+    font-weight: bolder;
   }
 
   @media (max-width: 500px) {
@@ -34,10 +35,10 @@
 
   @media (max-width: 375px){
     .text-footer{
-      font-size: 22px;
+      font-size: 20px;
     }
 
     .footer-copyright p {
-      font-size: 15px;
+      font-size: 12px;
     }
   }
