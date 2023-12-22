@@ -367,6 +367,34 @@
     }
   }
 
+  @media (max-width: 397px) {
+    .costura-creativa{
+      margin-left: -1%;
+    }
+    .text-costura {
+      margin-top: 15%;
+      font-size: 35px;
+      margin-left: -1%;
+    }
+    
+    .costura-creativa li {
+      font-size: 20px;
+      margin-left: 5%;
+    }
+  
+    .parrafo {
+      font-size: 34px;
+    }
+
+    .img-home {
+      width: 120%;
+      position: absolute;
+      top: 40%;
+      left: 50%; 
+      transform: translateX(-50%); 
+    }
+  }
+
   @media (max-width: 375px) {
     .costura-creativa{
       margin-left: -1%;
@@ -393,7 +421,6 @@
       left: 50%; 
       transform: translateX(-50%); 
     }
-  
   }
 
   @media (max-width: 344px) {
